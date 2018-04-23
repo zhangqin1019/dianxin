@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title></title>
+    <link type="text/css" href="189.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="189.js"></script>
+    <script type="text/javascript" src="jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+<div id="contain">
+    <div id="head"><!--头部div-->
+        <div id="head-top-content"><!--头部顶端内容-->
+            <div id="head-top">
+                <div id="head-top-left"><!--头部顶端左部内容-->
+                    <ul>
+                        <li><img src="images/start.png" style="height: 29px"/><a href="javascript:void(0);" class="color">收藏欢go网</a></li>
+                        <li>欢迎来到欢go网站</li>
+                        <li><a href="javascript:void(0);">登录</a><span>|</span><a href="javascript:void(0);">免费注册</a></li>
+                    </ul>
+                </div>
+                <div id="head-top-right"><!--头部顶端右部内容-->
+                    <ul>
+                        <li style="position: relative;" >
+                            <div id="mygo"><img src="images/people.png"/><a href="javascript:void(0);" class="color1">我的欢go</a><img src="images/s.png"/>
+                                <div id="myGo1">
+                                    <img src="images/people.png"/><a href="javascript:void(0);" class="color1">我的欢go</a><img src="images/s.png"/>
+                                    <a href="javascript:void(0);" style="padding-left: 25px;">我的订单</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="position: relative">
+                            <span>|</span>
+                            <div id="customer" style="display: inline-block;"><img src="images/mobile.png"/><a href="javascript:void(0);" class="color">欢go客户端</a>
+                                <div id="customer-photo">
+                                    <p><img src="images/app189.jpg"/></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li><span>|</span><img src="images/email.png"/><a href="#" class="color">189邮箱</a></li>
+                        <li><span>|</span><img src="images/customer.png" style="height: 27px;"/><a href="javascript:void(0);" class="color">政企客户</a></li>
+                        <li style="position: relative">
+                            <span>|</span>
+                            <div id="cusHelp" style="display: inline-block;"><img src="images/information.png"/><a href="javascript:void(0);" class="color2">消费者帮助中心</a>
+                                <div id="customer-help">
+                                    <img src="images/information.png"/><a href="javascript:void(0);" class="color2">消费者帮助中心</a>
+                                    <a href="javascript:void(0);"><img src="images/zx.jpg"/></a>
+                                </div>
+                            </div>
+                            <img src="images/en.png" style="height: 27px;padding-left: 5px;"/>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="head-ad" hidden><!--头部广告内容-->
+            <div id="img"><img src="images/cl.jpg"/></div>
+            <div id="head-ad-content">
+                <img src="images/close_img.png"/>
+            </div>
+        </div>
+        <div id="head-bottom"><!--头部搜索内容-->
+            <div id="head-bottom-content">
+                <div id="head-bottom-left">
+                    <a href="javascript:void(0);"><img src="images/logo.png"/></a>
+                </div>
+                <div id="city">
+                    <select>
+                        <option selected>江西</option>
+                    </select>
+                    <div id="hide" hidden>
+                        <p><span>A-G</span><a href="javascript:void(0);">北京</a><a href="javascript:void(0);">安徽</a><a href="javascript:void(0);">重庆</a><a href="javascript:void(0);">福建</a><a href="javascript:void(0);">广东</a><a href="javascript:void(0);">甘肃</a><a href="javascript:void(0);">广西</a><a href="javascript:void(0);">贵州</a></p>
+                        <p><span>H-J</span><a href="javascript:void(0);">湖北</a><a href="javascript:void(0);">湖南</a><a href="javascript:void(0);">河北</a><a href="javascript:void(0);">河南</a><a href="javascript:void(0);">海南</a><a href="javascript:void(0);">黑龙江</a><a href="javascript:void(0);">江苏</a><a href="javascript:void(0);">吉林</a><a href="javascript:void(0);">江西</a></p>
+                        <p><span>L-S</span><a href="javascript:void(0);">辽宁</a><a href="javascript:void(0);">内蒙古</a><a href="javascript:void(0);">宁夏</a><a href="javascript:void(0);">青海</a><a href="javascript:void(0);">山东</a><a href="javascript:void(0);">上海</a><a href="javascript:void(0);">山西</a><a href="javascript:void(0);">陕西</a><a href="javascript:void(0);">四川</a></p>
+                        <p><span>T-Z</span><a href="javascript:void(0);">天津</a><a href="javascript:void(0);">新疆</a><a href="javascript:void(0);">西藏</a><a href="javascript:void(0);">云南</a><a href="javascript:void(0);">浙江</a></p>
+                    </div>
+                </div>
+                <div id="search">
+                    <p>
+                        <a href="javascript:void(0);">搜产品</a>
+                        <a href="javascript:void(0);">搜帮助</a>
+                    </p>
+                    <p><input type="text" name="search" placeholder="无线上网卡"/><a href="javascript:void(0);">搜索</a></p>
+                    <p>
+                        <a href="javascript:void(0);">iPhone SE</a>
+                        <a href="javascript:void(0);">64G</a>
+                        <a href="javascript:void(0);">主副卡</a>
+                        <a href="javascript:void(0);">自由卡</a>
+                        <a href="javascript:void(0);">4G上网卡</a>
+                    </p>
+                </div>
+                <div id="head-bottom-right">
+                    <a href="javascript:void(0);"><img src="images/head-logo.jpg"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="nav"><!--导航栏-->
+        <div id="nav-content">
+            <div id="server-content">
+                <ul>
+                    <li style="background-color: #FFAD00;"><img src="images/l.png"/><a href="javascript:void(0);" style="padding-right: 0px;">全部产品及服务</a><img src="images/bg-s.png"/></li>
+                </ul>
+            </div>
+            <div id="head-login">
+                <ul>
+                    <li style="padding-left: 50px;"><a href="javascript:void(0);"  class="a-move">首页</a></li>
+                    <li><a href="javascript:void(0);" class="a-move">手机</a></li>
+                    <li><a href="javascript:void(0);" class="a-move">宽带光纤</a></li>
+                    <li><a href="javascript:void(0);" class="a-move">老用户</a></li>
+                    <li><a href="javascript:void(0);" class="a-move">自助服务</a></li>
+                </ul>
+            </div>
+            <div id="right">
+                <img src="images/login.png" style="height: 45px;padding-right: 5px;"/><a href="javascript:void(0);">登录</a><span style="color: white;">|</span><a href="javascript:void(0);">注册</a>
+            </div>
+        </div>
+    </div>
+    <div id="photo"><!--图片轮播部分-->
+        <div id="photo-contain">
+            <div id="photo-content">
+                <div id="photo-left"><!--左部内容-->
+                    <ul>
+                        <li id="one"><a href="#">手机</a>
+                            <div id="one-content">
+                                <p><span class="one-title">新品</span><a href="#">华为 mate8</a><span>|</span><a href="#">OPPO R7Plus</a><span>|</span><a href="#">华为P9</a><span>|</span><a href="#">荣耀5X</a><span>|</span><a href="#">荣耀 V8</a><span>|</span></p>
+                                <p><span class="one-title">特价</span><a href="#">华为 荣耀4A</a><span>|</span><a href="#">魅蓝 METAL</a><span>|</span><a href="#">酷派锋尚Pro2</a><span>|</span><a href="#">华为畅享5</a><span>|</span><a href="#">vivo Y51A</a><span>|</span></p>
+                                <p><span class="one-title">品牌</span><a href="#">苹果</a><span>|</span><a href="#">华为</a><span>|</span><a href="#">魅族</a><span>|</span><a href="#">小米</a><span>|</span></p>
+                                <p><span class="one-title">价格</span><a href="#">1000元以下</a><span>|</span><a href="#">1000元</a><span>|</span><a href="#">2000元</a><span>|</span><a href="#">3000元</a><span>|</span><a href="#">4000元以上</a><span>|</span></p>
+                                <p><span class="one-title">系统</span><a href="#">其它系统</a><span>|</span><a href="#">安卓</a><span>|</span><a href="#">IOS</a><span>|</span></p>
+                                <p><span class="one-title">屏幕尺寸</span><a href="#">3.0英寸及以下</a><span>|</span><a href="#">3.1-4.5英寸</a><span>|</span><a href="#">4.6-5.0英寸</a><span>|</span><a href="#"> 5.1-5.5英寸</a><span>|</span></p>
+                                <p><span class="one-title">类型</span><a href="#">NFC手机</a><span>|</span><a href="#">全网通</a><span>|</span><a href="#">安全手机</a><span>|</span><a href="#">视频手机</a><span>|</span></p>
+                                <p><a href="#"><img src="images/one-ad01.png"/><img src="images/one-ad02.png"/></a></p>
+                            </div>
+                        </li>
+                        <li id="two"><a href="#">套餐/靓号</a>
+                            <div id="two-content">
+                                <p><span class="two-title">号码</span><a href="#">189</a><span>|</span><a href="#">181</a><span>|</span><a href="#">180</a><span>|</span><a href="#">153</a><span>|</span><a href="#">133</a><span>|</span></p>
+                                <p><span class="two-title">套餐</span><a href="#">乐享4G套餐(全国）</a><span>|</span><a href="#">个人定制4G套餐(全国）</a><span>|</span><a href="#">飞young 4G纯流量云卡(全国）</a><span>|</span></p>
+                                <p><span class="two-title">号码类型</span><a href="#">个人定制</a><span>|</span><a href="#">小二卡</a><span>|</span><a href="#">小二卡|19元飞young4G套餐</a><span>|</span><a href="#">99元畅享卡</a><span>|</span><a href="#">智慧家庭</a><span>|</span></p>
+                                <p><a href="#"><img src="images/two-ad1.png"/><img src="images/two-ad2.png"/></a></p>
+                            </div>
+                        </li>
+                        <li id="three"><a href="#">宽带</a>
+                            <div id="three-content">
+                                <p><span class="three-title">宽带业务</span><a href="#">宽带新装</a><span>|</span><a href="#">宽带续约</a><span>|</span><a href="#">iTV新装</a><span>|</span><a href="#">自助提速</a><span>|</span><a href="#">绿色上网</a><span>|</span><a href="#">光纤改造</a><span>|</span></p>
+                                <p><span class="three-title">应用服务</span><a href="#">宽带欠费绿色开机</a><span>|</span><a href="#">宽带一键修复</a><span>|</span><a href="#">wifi设置</a><span>|</span><a href="#">宽带卡激活</a><span>|</span><a href="#">宽带测速</a><span>|</span></p>
+                                <p><span class="three-title">业务查询</span><a href="#">装移机进度查询</a><span>|</span><a href="#">光小区查询</a><span>|</span></p>
+                                <p><span class="three-title">宽带提速</span><a href="#">翼网打尽</a><span>|</span></p>
+                                <p><a href="#"><img src="images/three-ad1.png"/><img src="images/three-ad2.png"/></a></p>
+                            </div>
+                        </li>
+                        <li id="four"><a href="#">智能</a>
+                            <div id="four-content">
+                                <p><span class="four-title">手机配件</span><a href="#">移动电源</a><span>|</span><a href="#">内存卡</a><span>|</span><a href="#">手机膜</a><span>|</span><a href="#">耳机</a><span>|</span></p>
+                                <p><span class="four-title">智能设备</span><a href="#">机顶盒</a><span>|</span><a href="#">摄像头</a><span>|</span><a href="#">智能相框</a><span>|</span></p>
+                                <p><a href="#"><img src="images/four-ad1.png"/><img src="images/four-ad2.png"/></a></p>
+                            </div>
+                        </li>
+                        <li id="five"><a href="#">话费</a>
+                            <div id="five-content">
+                                <p><span class="five-title">购买充值卡</span><a href="#">购买充值卡</a><span>|</span></p>
+                                <p><span class="five-title">充值卡充值</span><a href="#">充值卡充值</a><span>|</span><a href="#">充值卡充值</a><span>|</span></p>
+                                <p><span class="five-title">银行卡充值</span><a href="#">银行卡充值</a><span>|</span></span><a href="#">银行卡批量充值</a><span>|</span></span><a href="#">银行卡充流量</a><span>|</span></p>
+                                <p><span class="five-title">翼支付</span><a href="#">交费助手充值</a><span>|</span></p>
+                                <p><a href="#"><img src="images/five-ad1.png"/><img src="images/five-ad2.png"/></a></p>
+                            </div>
+                        </li>
+                        <li id="six"><a href="#">费用</a>
+                            <div id="six-content">
+                                <p><span class="six-title">我的话费</span><a href="#">余额查询</a><span>|</span><a href="#">欠费查询</a><span>|</span><a href="#">实时话费查询</a><span>|</span><a href="#">交费助手查询</a><span>|</span></p>
+                                <p><span class="six-title">我的业务</span><a href="#">套餐使用情况</a><span>|</span><a href="#">积分兑换</a><span>|</span></p>
+                                <p><span class="six-title">账单查询</span><a href="#">历史账单</a><span>|</span><a href="#">交费助手查询</a><span>|</span></p>
+                                <p><span class="six-title">详细查询</span><a href="#">语音详单</a><span>|</span><a href="#">上网详单</a><span>|</span><a href="#">短信详单</a><span>|</span></p>
+                                <p><a href="#"><img src="images/six-ad1.png"/><img src="images/six-ad2.png"/></a></p>
+                            </div>
+                        </li>
+                        <li id="seven"><a href="#">业务</a>
+                            <div id="seven-content">
+                                <p><span class="seven-title">手机用户</span><a href="#">流量专区</a><span>|</span><a href="#">全国一次性流量包</a><span>|</span><a href="#">4G数据产品流量提醒</a><span>|</span><a href="#">全国包月流量包</a><span>|</span><a href="#">主副卡</a><span>|</span></p>
+                                <p><span class="seven-title">固话用户</span><a href="#">17909长话套餐</a><span>|</span><a href="#">闲时流量包</a><span>|</span><a href="#">4G畅聊流量包</a><span>|</span><a href="#">实名制自助查询</a><span>|</span><a href="#">一卡双号</a><span>|</span></p>
+                                <p><span class="seven-title">宽带用户</span><a href="#">新装预约</a><span>|</span><a href="#">自助提速</a><span>|</span><a href="#">宽带续约</a><span>|</span></p>
+                                <p><span class="seven-title">增值业务</span><a href="#">189邮箱</a><span>|</span><a href="#">天翼国际漫游</a><span>|</span></p>
+                                <p><span class="seven-title">行业应用</span><a href="#">外勤助手</a><span>|</span><a href="#">空中充值</a><span>|</span></p>
+                                <p><span class="seven-title">翼支付</span><a href="#">交费助手</a><span>|</span><a href="#">添益宝</a><span>|</span></p>
+                                <p><a href="#"><img src="images/seven-ad1.png"/><img src="images/seven-ad2.png"/></a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="photo-right"><!--右部内容-->
+                    <div id="photo-right-top"><!--右部顶端内容-->
+                        <div id="head1">欢享服务<span>|</span>
+                            <div class="btn-left"><img src="images/bt-left.png"/></div>
+                            <div class="btn-right"><img src="images/bt-right.png"/></div>
+                            <div class="btn-left-content" id="photo-top-leftContent1">
+                                <dl>
+                                    <dt><a href="#"><img src="images/Bstart.jpg"/></a></dt>
+                                    <dd><a href="#">星级服务</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/up.png"/></a></dt>
+                                    <dd><a href="#">3G升4G</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/money.png"/></a></dt>
+                                    <dd><a href="#">积分俱乐部</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/$.png"/></a></dt>
+                                    <dd><a href="#">话费查询</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/key.png"/></a></dt>
+                                    <dd><a href="#">密码修改</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/max.png"/></a></dt>
+                                    <dd><a href="#">充值记录查</a></dd>
+                                </dl>
+                            </div>
+                            <div class="btn-left-content" id="photo-top-leftContent2">
+                                <dl>
+                                    <dt><a href="#"><img src="images/qd.png"/></a></dt>
+                                    <dd><a href="#">清单查询</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/yx.png"/></a></dt>
+                                    <dd><a href="#">银行卡充值</a></dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div id="head2">超值购
+                            <div class="btn-left"><img src="images/bt-left.png"/></div>
+                            <div class="btn-right"><img src="images/bt-right.png"/></div>
+                            <div class="btn-right-content" id="photo-top-rightContent1">
+                                <dl>
+                                    <dt><a href="#"><img src="images/wifi.png"/></a></dt>
+                                    <dd><a href="#">流量超市</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/heart.png"/></a></dt>
+                                    <dd><a href="#">靓号专区</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/zn.png"/></a></dt>
+                                    <dd><a href="#">智能专区</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/4G.png"/></a></dt>
+                                    <dd><a href="#">4G专区</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/sk.png"/></a></dt>
+                                    <dd><a href="#">校园专区</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/bk.png"/></a></dt>
+                                    <dd><a href="#">分期购专区</a></dd>
+                                </dl>
+                            </div>
+                            <div class="btn-right-content" id="photo-top-rightContent2">
+                                <dl>
+                                    <dt><a href="#"><img src="images/yk.png"/></a></dt>
+                                    <dd><a href="#">一卡双号</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/yj.png"/></a></dt>
+                                    <dd><a href="#">以旧换新</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/gr.png"/></a></dt>
+                                    <dd><a href="#">个人定制</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt><a href="#"><img src="images/z.png"/></a></dt>
+                                    <dd><a href="#">分享赚豆</a></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="photo-right-middle"><!--右部中间内容-->
+                        <div style="width:180px;float:left;border-bottom: 1px solid gray;margin-left: 15px;margin-right: 15px;margin-bottom: 2px;"></div>
+                        <div id="form">
+                            <form action="#" method="post">
+                                <p>
+                                    <a href="javascript:void(0);" id="shouji" style="color: orange;">手机</a><span>|</span>
+                                    <a href="javascript:void(0);" id="liuliang">流量</a><span>|</span>
+                                    <a href="javascript:void(0);" id="kuandai">宽带</a><span>|</span>
+                                    <a href="javascript:void(0);" id="guhua">固话</a>
+                                </p>
+                                <p>
+                                    <input type="radio" name="money"/><span>银行卡充值</span>
+                                    <input type="radio" name="money"/><span>卡密充值</span>
+                                </p>
+                                <div id="phone">
+                                    <p><label>号码</label><input type="text" name="num"/></p>
+                                    <p  style="position: relative">
+                                        <label>金额</label>
+                                        <select id="number">
+                                            <option selected>10元</option>
+                                        </select>
+                                    <div id="jin">
+                                        <p><a href="javascript:void(0);">100元</a><a href="javascript:void(0);">10元</a></p>
+                                        <p><a href="javascript:void(0);">200元</a><a href="javascript:void(0);">20元</a></p>
+                                        <p><a href="javascript:void(0);">300元</a><a href="javascript:void(0);">30元</a></p>
+                                        <p><a href="javascript:void(0);">500元</a><a href="javascript:void(0);">50元</a></p>
+                                    </div>
+                                    </p>
+                                </div>
+                                <div id="ll" hidden>
+                                    <p>
+                                        <label>号码</label><input type="text" name="num"/>
+                                    </p>
+                                </div>
+                                <div id="line" hidden>
+                                    <p><label>号码</label><input type="text" name="num"/></p>
+                                    <p  style="position: relative">
+                                        <label>金额</label>
+                                        <select id="number1">
+                                            <option selected>10元</option>
+                                        </select>
+                                    <div id="jiner">
+                                        <p><a href="javascript:void(0);">10元</a></p>
+                                        <p><a href="javascript:void(0);">20元</a></p>
+                                        <p><a href="javascript:void(0);">30元</a></p>
+                                        <p><a href="javascript:void(0);">50元</a></p>
+                                        <p><a href="javascript:void(0);">100元</a></p>
+                                    </div>
+                                    </p>
+                                </div>
+                                <div id="word" hidden>
+                                    <p>
+                                        <label>号码</label><input type="text" name="num"/>
+                                        <label>-</label><input type="text" name="num1"/>
+                                    </p>
+                                    <p  style="position: relative">
+                                        <label>金额</label>
+                                        <select id="number2">
+                                            <option selected>10元</option>
+                                        </select>
+                                    <div id="jine">
+                                        <p><a href="javascript:void(0);">10元</a></p>
+                                        <p><a href="javascript:void(0);">20元</a></p>
+                                        <p><a href="javascript:void(0);">30元</a></p>
+                                        <p><a href="javascript:void(0);">50元</a></p>
+                                        <p><a href="javascript:void(0);">100元</a></p>
+                                    </div>
+                                    </p>
+                                </div>
+                                <div id="sumbit">
+                                    <p>
+                                        <input type="submit" value="立即充值"/><a href="#">充值专区</a>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                        <div style="width:180px;float:left;border-bottom: 1px solid gray;margin-left: 15px;margin-right: 15px; margin-top: 8px;"></div>
+                    </div>
+                    <div id="photo-right-bottom"><!--右部底部内容-->
+                        <div id="photo-bottom-left"><a href="#">公告</a></div>
+                        <div id ="photo-bottom-right">
+                            <div id="information">
+                                <div id="information1">
+                                    <a href="#" name="gonggao">关于中国电信推出“星级服务”的公告</a>
+                                    <a href="#" name="gonggao">关于开放套餐内当月流量不清零服务的公告</a>
+                                    <a href="#" name="gonggao">建设项目竣工环境保护验收监测报告</a>
+                                    <a href="#" name="gonggao">2014年、2015年一期LTE基站建设项目环境影响报告书</a>
+                                    <a href="#" name="gonggao">关于电信用户未实名用户补登记公告</a>
+                                    <a href="#" name="gonggao">号卡实名制公告</a>
+                                    <a href="#" name="gonggao">时刻绷紧防范之弦，谨防通讯信息诈骗</a>
+                                    <a href="#" name="gonggao">关于防范骚扰电话和骚扰短信的公告</a>
+                                    <a href="#" name="gonggao">昌抚通信同城化</a>
+                                </div>
+                                <div id="information2">
+                                    <a href="#" name="gonggao">关于中国电信推出“星级服务”的公告</a>
+                                    <a href="#" name="gonggao">关于开放套餐内当月流量不清零服务的公告</a>
+                                    <a href="#" name="gonggao">建设项目竣工环境保护验收监测报告</a>
+                                    <a href="#" name="gonggao">2014年、2015年一期LTE基站建设项目环境影响报告书</a>
+                                    <a href="#" name="gonggao">关于电信用户未实名用户补登记公告</a>
+                                    <a href="#" name="gonggao">号卡实名制公告</a>
+                                    <a href="#" name="gonggao">时刻绷紧防范之弦，谨防通讯信息诈骗</a>
+                                    <a href="#" name="gonggao">关于防范骚扰电话和骚扰短信的公告</a>
+                                    <a href="#" name="gonggao">昌抚通信同城化</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="banner-content">
+            <img src="images/banner1.jpg" width="100%" height="100%" name="imgs"/>
+            <img src="images/banner2.jpg" width="100%" height="100%" name="imgs"/>
+            <img src="images/banner3.jpg" width="100%" height="100%" name="imgs"/>
+            <img src="images/banner4.jpg" width="100%" height="100%" name="imgs"/>
+            <img src="images/banner5.jpg" width="100%" height="100%" name="imgs"/>
+        </div>
+        <div id="img-btn">
+            <input type="button" name="imgs-btn" id="btn1" value="1"/>
+            <input type="button" name="imgs-btn" id="btn2" value="2"/>
+            <input type="button" name="imgs-btn" id="btn3" value="3"/>
+            <input type="button" name="imgs-btn" id="btn4" value="4"/>
+            <input type="button" name="imgs-btn" id="btn5" value="5"/>
+        </div>
+    </div>
+    <div id="change">
+        <div id="change-content">
+            <div id="left"><img src="images/change.jpg"></div>
+            <div class="picScroll-left">
+                <a class="next">&lt;</a>
+                <a class="prev">&gt;</a>
+                <div class="bd">
+                    <ul class="picList">
+                        <li>
+                            <div class="content1">
+                                <a href="http://www.SuperSlide2.com" target="_blank">
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change8.jpg" />
+                                </a>
+                            </div>
+                            <div class="content2">
+                                <a href="http://www.SuperSlide2.com" target="_blank">
+                                    <img src="images/change3.jpg" />
+                                    <img src="images/change3.jpg" />
+                                    <img src="images/change3.jpg" />
+                                    <img src="images/change5.jpg" />
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content1">
+                                <a href="http://www.SuperSlide2.com" target="_blank">
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change8.jpg" />
+                                </a>
+                            </div>
+                            <div class="content2">
+                                <a href="http://www.SuperSlide2.com" target="_blank">
+                                    <img src="images/change6.jpg" />
+                                    <img src="images/change6.jpg" />
+                                    <img src="images/change6.jpg" />
+                                    <img src="images/change5.jpg" />
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content1">
+                                <a href="http://www.SuperSlide2.com" target="_blank">
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change8.jpg" />
+                                </a>
+                            </div>
+                            <div class="content2">
+                                <a href="http://www.SuperSlide2.com" target="_blank">
+                                    <img src="images/change7.jpg" />
+                                    <img src="images/change7.jpg" />
+                                    <img src="images/change7.jpg" />
+                                    <img src="images/change5.jpg" />
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content1">
+                                <a href="http://www.SuperSlide2.com" target="_blank">
+                                    <img src="images/change3.jpg" />
+                                    <img src="images/change3.jpg" />
+                                    <img src="images/change3.jpg" />
+                                    <img src="images/change8.jpg" />
+                                </a>
+                            </div>
+                            <div class="content2">
+                                <a href="http://www.SuperSlide2.com" target="_blank">
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change5.jpg" />
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content1">
+                                <a href="http://www.SuperSlide2.com" target="_blank">
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change8.jpg" />
+                                </a>
+                            </div>
+                            <div class="content2">
+                                <a href="http://www.SuperSlide2.com" target="_blank">
+                                    <img src="images/change6.jpg" />
+                                    <img src="images/change6.jpg" />
+                                    <img src="images/change6.jpg" />
+                                    <img src="images/change5.jpg" />
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content1">
+                                <a href="http://www.SuperSlide2.com" target="_blank">
+                                    <img src="images/change7.jpg" />
+                                    <img src="images/change7.jpg" />
+                                    <img src="images/change7.jpg" />
+                                    <img src="images/change8.jpg" />
+                                </a>
+                            </div>
+                            <div class="content2">
+                                <a href="http://www.SuperSlide2.com" target="_blank">
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change2.jpg" />
+                                    <img src="images/change5.jpg" />
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main"><!--内容主体部分-->
+       <div id="main-content">
+           <div class="content"><!--极客炫耀-->
+               <p><img src="images/title_01.png"/>好宝贝,够任性，就是要炫耀!</p>
+              <div class="main-left">
+                  <div class="content-left">
+                      <table>
+                          <tr>
+                              <td><img src="images/jk-ad10.png" class="xuanzhuan"/></td>
+                              <td><img src="images/jk-ad9.png" class="xuanzhuan"/></td>
+                          </tr>
+                          <tr>
+                              <td><a href="javascript:void(0);">189靓号</a></td>
+                              <td><a href="javascript:void(0);">177靓号</a></td>
+                          </tr>
+                      </table>
+                  </div>
+                  <div class="content-center">
+                      <img src="images/jk-ad6.png" class="move"/>
+                  </div>
+                  <div class="content-foot">
+                      <table>
+                          <tr>
+                              <td><a href="javascript:void(0);">荣耀畅玩5x</a></td>
+                              <td><a href="javascript:void(0);">畅享5</a></td>
+                          </tr>
+                          <tr>
+                              <td><a href="javascript:void(0);">4G纯流量云卡</a></td>
+                              <td><a href="javascript:void(0);">4G19云卡</a></td>
+                          </tr>
+                          <tr>
+                              <td><a href="javascript:void(0);">乐享59套餐</a></td>
+                              <td><a href="javascript:void(0);">乐享99套餐</a></td>
+                          </tr>
+                          <tr>
+                              <td><a href="javascript:void(0);">自由卡</a></td>
+                              <td><a href="javascript:void(0);">大三元</a></td>
+                          </tr>
+                      </table>
+                  </div>
+              </div>
+               <div class="main-center">
+                   <img src="images/jk-ad5.jpg"/>
+               </div>
+               <div class="main-right">
+                  <table cellpadding="0px" cellspacing="0px">
+                      <tr>
+                          <td>
+                              <a href="javascript:void(0);">红米3X</a><br/>
+                              <span>晓龙430八核 全网通</span><br/>
+                              <span>899元</span><br/>
+                          </td>
+                          <td>
+                              <a href="javascript:void(0);">魅蓝note3</a><br/>
+                              <span>快的漂亮 薄的持久</span><br/>
+                              <span>999元</span><br/>
+                          </td>
+                          <td>
+                              <a href="javascript:void(0);">华为mate8</a><br/>
+                              <span>老用户续约赠话费和3G流量</span><br/>
+                              <span>3399元</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/jk-ad2.png" class="move"/></a></td>
+                          <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/jk-ad4.jpg" class="move"/></a></td>
+                          <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/jk-ad7.jpg" class="move"/></a></td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="javascript:void(0);">自由卡</a><br/>
+                              <span>49元=5G流量</span><br/>
+                          </td>
+                          <td>
+                              <a href="javascript:void(0);">大三元</a><br/>
+                              <span>月消费仅0元</span><br/>
+                          </td>
+                          <td>
+                              <a href="javascript:void(0);">飞young4G</a><br/>
+                              <span>长市话低至50分</span><br/>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td><a href="javascript:void(0);"><img src="images/jk-ad1.jpg" class="move"/></a></td>
+                          <td><a href="javascript:void(0);"><img src="images/jk-ad3.jpg" class="move"/></a></td>
+                          <td><a href="javascript:void(0);"><img src="images/jk-ad8.jpg" class="move"/></a></td>
+                      </tr>
+                  </table>
+               </div>
+           </div>
+           <div class="content"><!--快乐e家-->
+               <p><img src="images/title_02.png"/>爱自己,爱家庭，爱生活!</p>
+               <div class="main-left" style="position: absolute;left: 0px;top: 550px;">
+                   <div class="content-left">
+                       <table>
+                           <tr>
+                               <td><img src="images/kl-ad7.png" class="xuanzhuan"/></td>
+                               <td><img src="images/kl-ad6.png" class="xuanzhuan"/></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">账单查询</a></td>
+                               <td><a href="javascript:void(0);">积分兑换</a></td>
+                           </tr>
+                       </table>
+                   </div>
+                   <div class="content-center">
+                       <img src="images/kl-ad2.png" class="move"/>
+                   </div>
+                   <div class="content-foot">
+                       <table>
+                           <tr>
+                               <td><a href="javascript:void(0);">宽带新装</a></td>
+                               <td><a href="javascript:void(0);">宽带新装</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">宽带续约</a></td>
+                               <td><a href="javascript:void(0);">宽带续约</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">自助提速</a></td>
+                               <td><a href="javascript:void(0);">自助提速</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">宽带测速</a></td>
+                               <td><a href="javascript:void(0);">宽带测速</a></td>
+                           </tr>
+                       </table>
+                   </div>
+               </div>
+               <div class="main-center" style="position: absolute;left:200px;top: 550px;border: 1px solid #ccc;">
+                   <img src="images/kl-ad1.jpg"/>
+               </div>
+               <div class="main-right" style="position: absolute;right: 0px;top: 550px;">
+                   <table cellpadding="0px" cellspacing="0px">
+                       <tr>
+                           <td>
+                               <a href="javascript:void(0);">宽带续约</a><br/>
+                               <span>6.6折起</span><br/>
+                           </td>
+                           <td rowspan="4" style="background-color: #F5F5F7;">
+                               <a href="javascript:void(0);">翼网打尽</a><br/>
+                               <a href="javascript:void(0);"><img src="images/kl-ad4.png" class="move"/></a>
+                           </td>
+                           <td>
+                               <a href="javascript:void(0);">天翼高清火热上线</a><br/>
+                               <span>itv家庭生活新时尚</span><br/>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/kl-ad8.png" class="move"/></a></td>
+                           <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/kl-ad3.jpg" class="move"/></a></td>
+                       </tr>
+                       <tr>
+                           <td>
+                               <a href="javascript:void(0);">宽带极速提升</a><br/>
+                               <span>宽带速率免费升20M</span><br/>
+                           </td>
+                           <td>
+                               <a href="javascript:void(0);">宽带新装</a><br/>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td><a href="javascript:void(0);"><img src="images/kl-ad9.png" class="move"/></a></td>
+                           <td><a href="javascript:void(0);"><img src="images/kl-ad5.jpg" class="move"/></a></td>
+                       </tr>
+                   </table>
+               </div>
+           </div>
+           <div class="content"><!--商务舱-->
+               <p><img src="images/title_03.png"/>商务工作，由我自由驰骋！</p>
+               <div class="main-left" style="position: absolute;left: 0px;top: 1050px;">
+                   <div class="content-left">
+                       <table>
+                           <tr>
+                               <td><img src="images/sw-ad3.png" class="xuanzhuan"/></td>
+                               <td><img src="images/sw-ad4.png" class="xuanzhuan"/></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">4G流量包</a></td>
+                               <td><a href="javascript:void(0);">189邮箱</a></td>
+                           </tr>
+                       </table>
+                   </div>
+                   <div class="content-center">
+                       <img src="images/sw-ad5.png" class="move"/>
+                   </div>
+                   <div class="content-foot">
+                       <table>
+                           <tr>
+                               <td><a href="javascript:void(0);">充值卡充值</a></td>
+                               <td><a href="javascript:void(0);">银行卡充值</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">购买充值卡</a></td>
+                               <td><a href="javascript:void(0);">流量卡充值</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">批量充值</a></td>
+                               <td><a href="javascript:void(0);">批量充值</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">银行卡充流量</a></td>
+                               <td><a href="javascript:void(0);">银行卡充流量</a></td>
+                           </tr>
+                       </table>
+                   </div>
+               </div>
+               <div class="main-center" style="position: absolute;left:200px;top: 1050px;border: 1px solid #ccc;">
+                   <img src="images/sw-ad6.jpg"/>
+               </div>
+               <div class="main-right" style="position: absolute;right: 0px;top: 1050px;">
+                   <table cellpadding="0px" cellspacing="0px">
+                       <tr>
+                           <td rowspan="4">
+                               <a href="javascript:void(0);">50元月包</a><br/>
+                               <a href="javascript:void(0);"><img src="images/sw-ad7.jpg" class="move"/></a>
+                           </td>
+                           <td rowspan="4">
+                               <a href="javascript:void(0);">华为Mate 8</a><br/>
+                               <span>年度旗舰新品</span><br/>
+                               <span>2499元</span><br/>
+                               <a href="javascript:void(0);"><img src="images/sw-ad8.png" class="move"/></a>
+                           </td>
+                           <td>
+                               <a href="javascript:void(0);">iPhone se 16G</a><br/>
+                               <span>A9处理器</span><br/>
+                               <span>3288元</span><br/>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/sw-ad9.jpg" class="move"/></a></td>
+                       </tr>
+                       <tr>
+                           <td>
+                               <a href="javascript:void(0);">三星 J3 PRO</a><br/>
+                               <span>699元</span><br/>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td><a href="javascript:void(0);"><img src="images/sw-ad10.png" class="move"/></a></td>
+                       </tr>
+                   </table>
+               </div>
+           </div>
+           <div class="content"><!--心意-->
+               <p><img src="images/title_04.png"/>爸爸、老公、小外甥，都要心满意足！</p>
+               <div class="main-left" style="position: absolute;left: 0px;top: 1550px;">
+                   <div class="content-left">
+                       <table>
+                           <tr>
+                               <td><img src="images/xy-ad3.png" class="xuanzhuan"/></td>
+                               <td><img src="images/xy-ad4.png" class="xuanzhuan"/></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">靓号商城</a></td>
+                               <td><a href="javascript:void(0);">爱音乐</a></td>
+                           </tr>
+                       </table>
+                   </div>
+                   <div class="content-center">
+                       <img src="images/xy-ad5.PNG" class="move"/>
+                   </div>
+                   <div class="content-foot">
+                       <table>
+                           <tr>
+                               <td><a href="javascript:void(0);">3G升4G</a></td>
+                               <td><a href="javascript:void(0);">3G升4G</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">一卡双号</a></td>
+                               <td><a href="javascript:void(0);">一卡双号</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">流量专区</a></td>
+                               <td><a href="javascript:void(0);">靓号专区</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">4G专区</a></td>
+                               <td><a href="javascript:void(0);">老用户</a></td>
+                           </tr>
+                       </table>
+                   </div>
+               </div>
+               <div class="main-center" style="position: absolute;left:200px;top: 1550px;border: 1px solid #ccc;">
+                   <img src="images/xy-ad6.jpg"/>
+               </div>
+               <div class="main-right" style="position: absolute;right: 0px;top: 1550px;">
+                   <table cellpadding="0px" cellspacing="0px">
+                       <tr>
+                           <td>
+                               <a href="javascript:void(0);">魅蓝metal</a><br/>
+                               <span>金属机身 指纹识别</span><br/>
+                               <span>990元</span><br/>
+                           </td>
+                           <td rowspan="4" style="background-color: #F5F5F7;">
+                               <a href="javascript:void(0);">红米note3</a><br/>
+                               <span>指纹解锁 金属机身</span><br/>
+                               <span>999元</span><br/>
+                               <a href="javascript:void(0);"><img src="images/xy-ad8.png" class="move"/></a>
+                           </td>
+                           <td>
+                               <a href="javascript:void(0);">个人定制4G套餐</a><br/>
+                               <span>【分享日】</span><br/>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/xy-ad7.jpg" class="move"/></a></td>
+                           <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/xy-ad11.jpg" class="move"/></a></td>
+                       </tr>
+                       <tr>
+                           <td>
+                               <a href="javascript:void(0);">华为荣耀5X</a><br/>
+                               <span>1099元</span><br/>
+                           </td>
+                           <td>
+                               <a href="javascript:void(0);">飞young4G聊天版</a><br/>
+                               <span>50元</span><br/>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td><a href="javascript:void(0);"><img src="images/xy-ad10.jpg" class="move"/></a></td>
+                           <td><a href="javascript:void(0);"><img src="images/xy-ad9.png" class="move"/></a></td>
+                       </tr>
+                   </table>
+               </div>
+           </div>
+           <div class="content"><!--超级忙-->
+               <p><img src="images/title_05.png"/>职场生活，忙碌并快乐着！</p>
+               <div class="main-left" style="position: absolute;left: 0px;top: 2050px;">
+                   <div class="content-left">
+                       <table>
+                           <tr>
+                               <td><img src="images/cj-ad3.png" class="xuanzhuan"/></td>
+                               <td><img src="images/cj-ad4.png" class="xuanzhuan"/></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">4G流量包</a></td>
+                               <td><a href="javascript:void(0);">套餐变更</a></td>
+                           </tr>
+                       </table>
+                   </div>
+                   <div class="content-center">
+                       <img src="images/cj-ad5.png" class="move"/>
+                   </div>
+                   <div class="content-foot">
+                       <table>
+                           <tr>
+                               <td><a href="javascript:void(0);">余额查询</a></td>
+                               <td><a href="javascript:void(0);">余额查询</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">欠费查询</a></td>
+                               <td><a href="javascript:void(0);">欠费查询</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">套餐使用情况</a></td>
+                               <td><a href="javascript:void(0);">套餐使用情况</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">实时话费查询</a></td>
+                               <td><a href="javascript:void(0);">交费助手查询</a></td>
+                           </tr>
+                       </table>
+                   </div>
+               </div>
+               <div class="main-center" style="position: absolute;left:200px;top: 2050px;border: 1px solid #ccc;">
+                   <img src="images/cj-ad6.jpg"/>
+               </div>
+               <div class="main-right" style="position: absolute;right: 0px;top: 2050px;">
+                   <table cellpadding="0px" cellspacing="0px">
+                       <tr>
+                           <td>
+                               <a href="javascript:void(0);">华为 P9</a><br/>
+                               <span>一上手，就爱不释手</span><br/>
+                               <span>2988元</span><br/>
+                           </td>
+                           <td>
+                               <a href="javascript:void(0);">华为 畅享5s</a><br/>
+                               <span>金属机身 指纹识别 8核</span><br/>
+                               <span>999元</span><br/>
+                           </td>
+                           <td>
+                               <a href="javascript:void(0);">魅蓝3 全网通</a><br/>
+                               <span>青年良品 颜值加速度</span><br/>
+                               <span>699元</span>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/cj-ad7.png" class="move"/></a></td>
+                           <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/cj-ad8.png" class="move"/></a></td>
+                           <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/cj-ad9.png" class="move"/></a></td>
+                       </tr>
+                       <tr>
+                           <td>
+                               <a href="javascript:void(0);">乐享59套餐</a><br/>
+                           </td>
+                           <td>
+                               <a href="javascript:void(0);">乐享79套餐</a><br/>
+                           </td>
+                           <td>
+                               <a href="javascript:void(0);">乐享129套餐</a><br/>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td><a href="javascript:void(0);"><img src="images/cj-ad10.jpg" class="move"/></a></td>
+                           <td><a href="javascript:void(0);"><img src="images/cj-ad11.jpg" class="move"/></a></td>
+                           <td><a href="javascript:void(0);"><img src="images/cj-ad12.jpg" class="move"/></a></td>
+                       </tr>
+                   </table>
+               </div>
+           </div>
+           <div class="content"><!--出行必备-->
+               <p><img src="images/title_06.png"/>旅行、户外、健身，一个都不能少！</p>
+               <div class="main-left" style="position: absolute;left: 0px;top: 2550px;">
+                   <div class="content-left">
+                       <table>
+                           <tr>
+                               <td><img src="images/cx-ad3.png" class="xuanzhuan"/></td>
+                               <td><img src="images/cx-ad4.png" class="xuanzhuan"/></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">套餐使用查询</a></td>
+                               <td><a href="javascript:void(0);">客户资料查询</a></td>
+                           </tr>
+                       </table>
+                   </div>
+                   <div class="content-center">
+                       <img src="images/cx-ad5.png" class="move"/>
+                   </div>
+                   <div class="content-foot">
+                       <table>
+                           <tr>
+                               <td><a href="javascript:void(0);">移动电源</a></td>
+                               <td><a href="javascript:void(0);">机顶盒</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">内存卡</a></td>
+                               <td><a href="javascript:void(0);">手机膜</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">摄像头</a></td>
+                               <td><a href="javascript:void(0);">摄像头</a></td>
+                           </tr>
+                           <tr>
+                               <td><a href="javascript:void(0);">耳机</a></td>
+                               <td><a href="javascript:void(0);">耳机</a></td>
+                           </tr>
+                       </table>
+                   </div>
+               </div>
+               <div class="main-center" style="position: absolute;left:200px;top: 2550px;border: 1px solid #ccc;">
+                   <img src="images/cx-ad6.png"/>
+               </div>
+               <div class="main-right" style="position: absolute;right: 0px;top: 2550px;">
+                   <table cellpadding="0px" cellspacing="0px">
+                       <tr>
+                           <td>
+                               <a href="javascript:void(0);">无线宽带 包年</a><br/>
+                               <span>30G省内+2G全国流量</span><br/>
+                               <span>420元</span><br/>
+                           </td>
+                           <td rowspan="4" style="background-color: #F5F5F7;">
+                               <a href="javascript:void(0);">邦邦熊二代儿童手表</a><br/>
+                               <span> 能互动学习的儿童定位手表</span><br/>
+                               <span>299元</span><br/>
+                               <a href="javascript:void(0);"><img src="images/cx-ad8.png" class="move"/></a>
+                           </td>
+                           <td>
+                               <a href="javascript:void(0);">无线宽带 季卡</a><br/>
+                               <span>itv家庭生活新时尚</span><br/>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/cx-ad7.jpg" class="move"/></a></td>
+                           <td style="border-bottom: 1px solid #ccc;"><a href="javascript:void(0);"><img src="images/cx-ad9.jpg" class="move"/></a></td>
+                       </tr>
+                       <tr>
+                           <td>
+                               <a href="javascript:void(0);">无线宽带 季卡</a><br/>
+                               <span>66元</span><br/>
+                           </td>
+                           <td>
+                               <a href="javascript:void(0);">邦邦熊Pro儿童通话定位手表</a><br/>
+                               <span>399元</span><br/>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td><a href="javascript:void(0);"><img src="images/cx-ad10.jpg" class="move"/></a></td>
+                           <td><a href="javascript:void(0);"><img src="images/cx-ad11.jpg" class="move"/></a></td>
+                       </tr>
+                   </table>
+               </div>
+           </div>
+       </div>
+    </div>
+    <div id="tb"><!--图标部分-->
+        <div id="tb-content">
+            <dl style="padding-left: 90px;">
+                <dt><img src="images/tb1.png"/></dt>
+                <dd><span>中国电信</span><br/>
+                    官方认证渠道</dd>
+            </dl>
+            <dl>
+                <dt><img src="images/tb2.png"/></dt>
+                <dd><span>正品保障</span><br/>
+                    正规发票</dd>
+            </dl>
+            <dl>
+                <dt><img src="images/tb3.png"/></dt>
+                <dd><span>品牌厂家</span><br/>
+                    优势品牌</dd>
+            </dl>
+            <dl>
+                <dt><img src="images/tb4.png"/></dt>
+                <dd><span>新品上市</span><br/>
+                    同步上市</dd>
+            </dl>
+            <dl>
+                <dt><img src="images/tb5.png"/></dt>
+                <dd><span>全场商品</span><br/>
+                    无忧退换货</dd>
+            </dl>
+        </div>
+    </div>
+    <div id="help"><!--服务部分-->
+        <div id="help-content">
+            <div id="help-left"></div><!--服务左边部分-->
+            <div id="help-middle"><!--服务中间部分-->
+                <dl style="padding-left: 70px;">
+                    <dt><a href="#">购物指南</a></dt>
+                    <dd>
+                        <a href="#">实名制</a><br/>
+                        <a href="#">网络制式</a><br/>
+                        <a href="#">订单查询</a><br/>
+                        <a href="#">购物流程</a><br/>
+                        <a href="#">卖场须知</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">物流配送</a></dt>
+                    <dd>
+                        <a href="#">收货须知</a><br/>
+                        <a href="#">配送说明</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">支付方式</a></dt>
+                    <dd><a href="#">赠费缴费说明</a></dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">售后服务</a></dt>
+                    <dd>
+                        <a href="#">服务承诺</a><br/>
+                        <a href="#">退款说明</a><br/>
+                        <a href="#">退款流程</a><br/>
+                        <a href="#">关于发票制度的说明</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">便民服务</a></dt>
+                    <dd>
+                        <a href="#">常见问题解答</a><br/>
+                        <a href="#">归属地查询</a><br/>
+                        <a href="#">wifi热点查询</a><br/>
+                        <a href="#">10000知道</a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="help-logo"></div><!--服务logo部分-->
+            <div id="help-right"><!--服务右边部分-->
+                <table>
+                    <tr>
+                        <td><a href="#"><img src="images/help-ad1.png" class="xuanzhuan"/></a></td>
+                        <td><a href="#"><img src="images/help-ad2.png" class="xuanzhuan"/></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">在线客服</a></td>
+                        <td><a href="#">微博客服</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="images/help-ad3.png" class="xuanzhuan"/></a></td>
+                        <td><a href="#"><img src="images/help-ad4.png" class="xuanzhuan"/></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">10000知道</a></td>
+                        <td><a href="#">咨询专区</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="go"><!--欢go网-->
+        <div id="go-content">
+            <div id="go-left"><a href="javascript:void(0);">电信欢go网</a><span>|</span></div>
+            <div id="go-right"><a href="javascript:void(0);">合作伙伴</a></div>
+            <div id="go-left-content">
+                <ul>
+                    <li style="padding-left: 10px;"><a href="#">北京欢go网</a><span>|</span></li>
+                    <li><a href="#">安徽欢go网</a><span>|</span></li>
+                    <li><a href="#">重庆欢go网</a><span>|</span></li>
+                    <li><a href="#">福建欢go网</a><span>|</span></li>
+                    <li><a href="#">广东欢go网</a><span>|</span></li>
+                    <li><a href="#">甘肃欢go网</a><span>|</span></li>
+                    <li><a href="#">广西欢go网</a><span>|</span></li>
+                    <li><a href="#">贵州欢go网</a><span>|</span></li>
+                    <li><a href="#">湖北欢go网</a><span>|</span></li>
+                    <li><a href="#">湖南欢go网</a><span>|</span></li>
+                    <li><a href="#">河北欢go网</a><span>|</span></li>
+                    <li><a href="#">河南欢go网</a><span>|</span></li>
+                    <li><a href="#">海南欢go网</a><span>|</span></li>
+                    <li><a href="#">黑龙江欢go网</a><span>|</span></li>
+                    <li><a href="#">江苏欢go网</a><span>|</span></li>
+                    <li style="padding-left: 10px;"><a href="#">吉林欢go网</a><span>|</span></li>
+                    <li><a href="#">江西欢go网</a><span>|</span></li>
+                    <li><a href="#">辽宁欢go网</a><span>|</span></li>
+                    <li><a href="#">内蒙古欢go网</a><span>|</span></li>
+                    <li><a href="#">宁夏欢go网</a><span>|</span></li>
+                    <li><a href="#">青海欢go网</a><span>|</span></li>
+                    <li><a href="#">山东欢go网</a><span>|</span></li>
+                    <li><a href="#">上海欢go网</a><span>|</span></li>
+                    <li><a href="#">山西欢go网</a><span>|</span></li>
+                    <li><a href="#">陕西欢go网</a><span>|</span></li>
+                    <li><a href="#">四川欢go网</a><span>|</span></li>
+                    <li><a href="#">天津欢go网</a><span>|</span></li>
+                    <li><a href="#">新疆欢go网</a><span>|</span></li>
+                    <li><a href="#">西藏欢go网</a><span>|</span></li>
+                    <li><a href="#">云南欢go网</a><span>|</span></li>
+                </ul>
+            </div>
+            <div id="go-right-content">
+                <ul>
+                    <li style="padding-left: 10px;"><a href="#">中国通信标准化协会</a><span>|</span></li>
+                    <li><a href="#">易购商城</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="foot"><!--底部内容-->
+        <div id="foot-content">
+            <div id="power"><p>版权所有&copy;2012 中国电信集团公司 [ 增值电信业务经营许可证 A2.B1.B2-20090001 ] ICP 证号:京 ICP 备 09031924号</p></div>
+            <div id="foot-photo"><p><img src="images/footerPic7.jpg"/></p></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
